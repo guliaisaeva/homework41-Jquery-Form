@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contact with us</h1>
+    <button class="call"><a href="#">Request a call</a></button>
+    <form class="active" action="send" method="POST">
+      <label for="name">Your Name</label>
+
+      <input class="name" type="text" id="name" name="name" />
+      <br />
+
+      <label for="phonenumber">Your Phonenumber</label>
+
+      <input class="tel" type="text" id="phonenumber" name="phonenumber" />
+      <br />
+      <label for="email">Your E-Mail</label>
+
+      <input class="email" type="text" id="email" name="email" />
+
+      <br />
+      <label for="message"> Your Message</label>
+
+      <input
+        class="msg"
+        type="text"
+        id="message"
+        name="message"
+        placeholder="Message"
+      />
+
+      <br />
+      <button class="send"><a href="#">Send</a></button>
+    </form>
+
+    <p>
+      Thanks for the request! <br />
+      We will call you soon.
+    </p>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
